@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00d0313cd151656d4942ccf0a1ca5250 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_00d0313cd151656d4942ccf0a1ca5250" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_00d0313cd151656d4942ccf0a1ca5250 = L.map(
+                "map_00d0313cd151656d4942ccf0a1ca5250",
+                {
+                    center: [-23.5505, -46.6333],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4a7ac58d785818fc640d87a3266939ad = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4a7ac58d785818fc640d87a3266939ad.addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+            var marker_5e5573cc197e7cf2da1e9a00553be551 = L.marker(
+                [-23.5505, -46.6333],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_e88bb8be281ffde521a03fa38b9e6b99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22f76a007ea243c40c0d66929666dc84 = $(`<div id="html_22f76a007ea243c40c0d66929666dc84" style="width: 100.0%; height: 100.0%;">São Paulo - SP <a href='https://www.google.com/maps/search/?api=1&query=-23.5505,-46.6333' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_e88bb8be281ffde521a03fa38b9e6b99.setContent(html_22f76a007ea243c40c0d66929666dc84);
+            
+        
+
+        marker_5e5573cc197e7cf2da1e9a00553be551.bindPopup(popup_e88bb8be281ffde521a03fa38b9e6b99)
+        ;
+
+        
+    
+    
+            marker_5e5573cc197e7cf2da1e9a00553be551.bindTooltip(
+                `<div>
+                     São Paulo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_09de7aebbc1f61e607e618d52c9126c1 = L.marker(
+                [-22.9068, -43.1729],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_8452208457a85f1937c5b9b4b1b72549 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b8deca88ef3de02ce2a2596ed6707dc = $(`<div id="html_7b8deca88ef3de02ce2a2596ed6707dc" style="width: 100.0%; height: 100.0%;">Rio de Janeiro - RJ <a href='https://www.google.com/maps/search/?api=1&query=-22.9068,-43.1729' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_8452208457a85f1937c5b9b4b1b72549.setContent(html_7b8deca88ef3de02ce2a2596ed6707dc);
+            
+        
+
+        marker_09de7aebbc1f61e607e618d52c9126c1.bindPopup(popup_8452208457a85f1937c5b9b4b1b72549)
+        ;
+
+        
+    
+    
+            marker_09de7aebbc1f61e607e618d52c9126c1.bindTooltip(
+                `<div>
+                     Rio de Janeiro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d27c855de199364681c3a1edd1386757 = L.marker(
+                [-19.9167, -43.9345],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_79578f828d74a30aa6223bceb725aeac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53c9782f04323145ae6ab40257a4f6fe = $(`<div id="html_53c9782f04323145ae6ab40257a4f6fe" style="width: 100.0%; height: 100.0%;">Belo Horizonte - MG <a href='https://www.google.com/maps/search/?api=1&query=-19.9167,-43.9345' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_79578f828d74a30aa6223bceb725aeac.setContent(html_53c9782f04323145ae6ab40257a4f6fe);
+            
+        
+
+        marker_d27c855de199364681c3a1edd1386757.bindPopup(popup_79578f828d74a30aa6223bceb725aeac)
+        ;
+
+        
+    
+    
+            marker_d27c855de199364681c3a1edd1386757.bindTooltip(
+                `<div>
+                     Belo Horizonte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0b037b4044bf71283c9805795c919f62 = L.marker(
+                [-12.9714, -38.5014],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_0ca986a36b27250c4ecbc5504ac87328 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ba7cb1c7c25f1c98aa769489c3196be = $(`<div id="html_7ba7cb1c7c25f1c98aa769489c3196be" style="width: 100.0%; height: 100.0%;">Salvador - BA <a href='https://www.google.com/maps/search/?api=1&query=-12.9714,-38.5014' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_0ca986a36b27250c4ecbc5504ac87328.setContent(html_7ba7cb1c7c25f1c98aa769489c3196be);
+            
+        
+
+        marker_0b037b4044bf71283c9805795c919f62.bindPopup(popup_0ca986a36b27250c4ecbc5504ac87328)
+        ;
+
+        
+    
+    
+            marker_0b037b4044bf71283c9805795c919f62.bindTooltip(
+                `<div>
+                     Salvador
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3986bac2795b20630d248b415ca92fa1 = L.marker(
+                [-15.8267, -47.9218],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_bc086cdd579a1d97321cf8b8c62679c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17943c91c98bd0ed45858c79626ec41f = $(`<div id="html_17943c91c98bd0ed45858c79626ec41f" style="width: 100.0%; height: 100.0%;">Brasília - DF <a href='https://www.google.com/maps/search/?api=1&query=-15.8267,-47.9218' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_bc086cdd579a1d97321cf8b8c62679c3.setContent(html_17943c91c98bd0ed45858c79626ec41f);
+            
+        
+
+        marker_3986bac2795b20630d248b415ca92fa1.bindPopup(popup_bc086cdd579a1d97321cf8b8c62679c3)
+        ;
+
+        
+    
+    
+            marker_3986bac2795b20630d248b415ca92fa1.bindTooltip(
+                `<div>
+                     Brasília
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a629f8e8a610334ca3d438bdfed1e7cc = L.marker(
+                [-25.4284, -49.2733],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_b3e9eb5a2e23c209b2e7460210901fb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb191e966e906d55a19b066275b16b30 = $(`<div id="html_fb191e966e906d55a19b066275b16b30" style="width: 100.0%; height: 100.0%;">Curitiba - PR <a href='https://www.google.com/maps/search/?api=1&query=-25.4284,-49.2733' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_b3e9eb5a2e23c209b2e7460210901fb1.setContent(html_fb191e966e906d55a19b066275b16b30);
+            
+        
+
+        marker_a629f8e8a610334ca3d438bdfed1e7cc.bindPopup(popup_b3e9eb5a2e23c209b2e7460210901fb1)
+        ;
+
+        
+    
+    
+            marker_a629f8e8a610334ca3d438bdfed1e7cc.bindTooltip(
+                `<div>
+                     Curitiba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6dce536a6462fa62901abaa81057ab4f = L.marker(
+                [-30.0346, -51.2177],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_cef850a043f5653f90b9e221b5048f7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16eab229a736e358b8a7e6352f27586b = $(`<div id="html_16eab229a736e358b8a7e6352f27586b" style="width: 100.0%; height: 100.0%;">Porto Alegre - RS <a href='https://www.google.com/maps/search/?api=1&query=-30.0346,-51.2177' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_cef850a043f5653f90b9e221b5048f7c.setContent(html_16eab229a736e358b8a7e6352f27586b);
+            
+        
+
+        marker_6dce536a6462fa62901abaa81057ab4f.bindPopup(popup_cef850a043f5653f90b9e221b5048f7c)
+        ;
+
+        
+    
+    
+            marker_6dce536a6462fa62901abaa81057ab4f.bindTooltip(
+                `<div>
+                     Porto Alegre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9f3b2955e3c732a384f44e0f9762198b = L.marker(
+                [-3.7172, -38.5433],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_8f2a25c1b82cfc1188e21a3626b63f6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_007d1ecddf67b4b1d25d47d2fd7b523f = $(`<div id="html_007d1ecddf67b4b1d25d47d2fd7b523f" style="width: 100.0%; height: 100.0%;">Fortaleza - CE <a href='https://www.google.com/maps/search/?api=1&query=-3.7172,-38.5433' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_8f2a25c1b82cfc1188e21a3626b63f6d.setContent(html_007d1ecddf67b4b1d25d47d2fd7b523f);
+            
+        
+
+        marker_9f3b2955e3c732a384f44e0f9762198b.bindPopup(popup_8f2a25c1b82cfc1188e21a3626b63f6d)
+        ;
+
+        
+    
+    
+            marker_9f3b2955e3c732a384f44e0f9762198b.bindTooltip(
+                `<div>
+                     Fortaleza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72c8f4d12061daa989e76ff1518b7a6c = L.marker(
+                [-3.119, -60.0217],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_9748a5713fe183aae34f14088d9e6f95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4a8711c84c83da2427402067d9d1161 = $(`<div id="html_f4a8711c84c83da2427402067d9d1161" style="width: 100.0%; height: 100.0%;">Manaus - AM <a href='https://www.google.com/maps/search/?api=1&query=-3.119,-60.0217' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_9748a5713fe183aae34f14088d9e6f95.setContent(html_f4a8711c84c83da2427402067d9d1161);
+            
+        
+
+        marker_72c8f4d12061daa989e76ff1518b7a6c.bindPopup(popup_9748a5713fe183aae34f14088d9e6f95)
+        ;
+
+        
+    
+    
+            marker_72c8f4d12061daa989e76ff1518b7a6c.bindTooltip(
+                `<div>
+                     Manaus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6b80383d39a793fbf498741231878680 = L.marker(
+                [-8.0476, -34.877],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_71942ab9028d3cc71f2dead99e385e32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5729cd64377d059e9ab26e6049b5cfa = $(`<div id="html_d5729cd64377d059e9ab26e6049b5cfa" style="width: 100.0%; height: 100.0%;">Recife - PE <a href='https://www.google.com/maps/search/?api=1&query=-8.0476,-34.877' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_71942ab9028d3cc71f2dead99e385e32.setContent(html_d5729cd64377d059e9ab26e6049b5cfa);
+            
+        
+
+        marker_6b80383d39a793fbf498741231878680.bindPopup(popup_71942ab9028d3cc71f2dead99e385e32)
+        ;
+
+        
+    
+    
+            marker_6b80383d39a793fbf498741231878680.bindTooltip(
+                `<div>
+                     Recife
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8dfd142393920b01e7260d2e349de272 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_ef298d7f3f82d78a71eaf91417000843 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8addb8025bd141fc543239d3681ea7de = $(`<div id="html_8addb8025bd141fc543239d3681ea7de" style="width: 100.0%; height: 100.0%;">Nova York - EUA <a href='https://www.google.com/maps/search/?api=1&query=40.7128,-74.006' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_ef298d7f3f82d78a71eaf91417000843.setContent(html_8addb8025bd141fc543239d3681ea7de);
+            
+        
+
+        marker_8dfd142393920b01e7260d2e349de272.bindPopup(popup_ef298d7f3f82d78a71eaf91417000843)
+        ;
+
+        
+    
+    
+            marker_8dfd142393920b01e7260d2e349de272.bindTooltip(
+                `<div>
+                     Nova York
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9f40d67eca8403a1076526ee51f53e58 = L.marker(
+                [51.5074, -0.1278],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_eb1033477aed42f043c491070b3158de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3e49054efcd7cc19d3136321de46cde = $(`<div id="html_c3e49054efcd7cc19d3136321de46cde" style="width: 100.0%; height: 100.0%;">Londres - Reino Unido <a href='https://www.google.com/maps/search/?api=1&query=51.5074,-0.1278' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_eb1033477aed42f043c491070b3158de.setContent(html_c3e49054efcd7cc19d3136321de46cde);
+            
+        
+
+        marker_9f40d67eca8403a1076526ee51f53e58.bindPopup(popup_eb1033477aed42f043c491070b3158de)
+        ;
+
+        
+    
+    
+            marker_9f40d67eca8403a1076526ee51f53e58.bindTooltip(
+                `<div>
+                     Londres
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aafb751d814b549b8b75510842847509 = L.marker(
+                [35.6895, 139.6917],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_b51939890f3b802eaff192f0d251c645 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d40f87a69184d5c5f126b6e8f003ed35 = $(`<div id="html_d40f87a69184d5c5f126b6e8f003ed35" style="width: 100.0%; height: 100.0%;">Tóquio - Japão <a href='https://www.google.com/maps/search/?api=1&query=35.6895,139.6917' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_b51939890f3b802eaff192f0d251c645.setContent(html_d40f87a69184d5c5f126b6e8f003ed35);
+            
+        
+
+        marker_aafb751d814b549b8b75510842847509.bindPopup(popup_b51939890f3b802eaff192f0d251c645)
+        ;
+
+        
+    
+    
+            marker_aafb751d814b549b8b75510842847509.bindTooltip(
+                `<div>
+                     Tóquio
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cb988beb508e93cf15cbaddbe0cc097d = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_80cd9db031fc985fcafc18389fa0cb30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87c0d8418b4d365fd55a101d7248ea76 = $(`<div id="html_87c0d8418b4d365fd55a101d7248ea76" style="width: 100.0%; height: 100.0%;">Paris - França <a href='https://www.google.com/maps/search/?api=1&query=48.8566,2.3522' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_80cd9db031fc985fcafc18389fa0cb30.setContent(html_87c0d8418b4d365fd55a101d7248ea76);
+            
+        
+
+        marker_cb988beb508e93cf15cbaddbe0cc097d.bindPopup(popup_80cd9db031fc985fcafc18389fa0cb30)
+        ;
+
+        
+    
+    
+            marker_cb988beb508e93cf15cbaddbe0cc097d.bindTooltip(
+                `<div>
+                     Paris
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6522a485e860517350900065b73a751b = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_7eabd2b1c4b9e7edc9960e72291ae967 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_feef2288f49a82ed7dd94a257338ca6d = $(`<div id="html_feef2288f49a82ed7dd94a257338ca6d" style="width: 100.0%; height: 100.0%;">Berlim - Alemanha <a href='https://www.google.com/maps/search/?api=1&query=52.52,13.405' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_7eabd2b1c4b9e7edc9960e72291ae967.setContent(html_feef2288f49a82ed7dd94a257338ca6d);
+            
+        
+
+        marker_6522a485e860517350900065b73a751b.bindPopup(popup_7eabd2b1c4b9e7edc9960e72291ae967)
+        ;
+
+        
+    
+    
+            marker_6522a485e860517350900065b73a751b.bindTooltip(
+                `<div>
+                     Berlim
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_641fbcd897dfe272c5b90ba31701c457 = L.marker(
+                [55.7558, 37.6173],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_3d5bc5a815212bd1cca8e22b2d1a2966 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac53ba51c07fcdb1a2068faa6a17e6b4 = $(`<div id="html_ac53ba51c07fcdb1a2068faa6a17e6b4" style="width: 100.0%; height: 100.0%;">Moscou - Rússia <a href='https://www.google.com/maps/search/?api=1&query=55.7558,37.6173' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_3d5bc5a815212bd1cca8e22b2d1a2966.setContent(html_ac53ba51c07fcdb1a2068faa6a17e6b4);
+            
+        
+
+        marker_641fbcd897dfe272c5b90ba31701c457.bindPopup(popup_3d5bc5a815212bd1cca8e22b2d1a2966)
+        ;
+
+        
+    
+    
+            marker_641fbcd897dfe272c5b90ba31701c457.bindTooltip(
+                `<div>
+                     Moscou
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67e8ae9ea642d8770a7f4d34cab9a3e6 = L.marker(
+                [39.9042, 116.4074],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_1d9e452594661359a65dab93dd248d2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8121f5665ce9f83820500916ebd97b13 = $(`<div id="html_8121f5665ce9f83820500916ebd97b13" style="width: 100.0%; height: 100.0%;">Pequim - China <a href='https://www.google.com/maps/search/?api=1&query=39.9042,116.4074' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_1d9e452594661359a65dab93dd248d2b.setContent(html_8121f5665ce9f83820500916ebd97b13);
+            
+        
+
+        marker_67e8ae9ea642d8770a7f4d34cab9a3e6.bindPopup(popup_1d9e452594661359a65dab93dd248d2b)
+        ;
+
+        
+    
+    
+            marker_67e8ae9ea642d8770a7f4d34cab9a3e6.bindTooltip(
+                `<div>
+                     Pequim
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4e219f68e067a8368b607d09b3660f46 = L.marker(
+                [-33.8688, 151.2093],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_b627328b42f191bb2bc0de7ea0ef9812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad545b9694e7b812091541c097731a20 = $(`<div id="html_ad545b9694e7b812091541c097731a20" style="width: 100.0%; height: 100.0%;">Sydney - Austrália <a href='https://www.google.com/maps/search/?api=1&query=-33.8688,151.2093' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_b627328b42f191bb2bc0de7ea0ef9812.setContent(html_ad545b9694e7b812091541c097731a20);
+            
+        
+
+        marker_4e219f68e067a8368b607d09b3660f46.bindPopup(popup_b627328b42f191bb2bc0de7ea0ef9812)
+        ;
+
+        
+    
+    
+            marker_4e219f68e067a8368b607d09b3660f46.bindTooltip(
+                `<div>
+                     Sydney
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a540a00f0f26c134724e3af6a3c72a9b = L.marker(
+                [19.4326, -99.1332],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_4610e45b58e85a9de31904029970de86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40b0d9158066d4d76abf61f494e96c41 = $(`<div id="html_40b0d9158066d4d76abf61f494e96c41" style="width: 100.0%; height: 100.0%;">Cidade do México - México <a href='https://www.google.com/maps/search/?api=1&query=19.4326,-99.1332' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_4610e45b58e85a9de31904029970de86.setContent(html_40b0d9158066d4d76abf61f494e96c41);
+            
+        
+
+        marker_a540a00f0f26c134724e3af6a3c72a9b.bindPopup(popup_4610e45b58e85a9de31904029970de86)
+        ;
+
+        
+    
+    
+            marker_a540a00f0f26c134724e3af6a3c72a9b.bindTooltip(
+                `<div>
+                     Cidade do México
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e6b8c8f46632f9b9eb12e57d9d6dc33c = L.marker(
+                [-34.6037, -58.3816],
+                {
+}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+    
+        var popup_9e8fdf653d6134de67041770b51a37f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_383b80eff30d7268b9af5e8d65269b07 = $(`<div id="html_383b80eff30d7268b9af5e8d65269b07" style="width: 100.0%; height: 100.0%;">Buenos Aires - Argentina <a href='https://www.google.com/maps/search/?api=1&query=-34.6037,-58.3816' target='_blank'>Ver no Google Maps</a></div>`)[0];
+                popup_9e8fdf653d6134de67041770b51a37f2.setContent(html_383b80eff30d7268b9af5e8d65269b07);
+            
+        
+
+        marker_e6b8c8f46632f9b9eb12e57d9d6dc33c.bindPopup(popup_9e8fdf653d6134de67041770b51a37f2)
+        ;
+
+        
+    
+    
+            marker_e6b8c8f46632f9b9eb12e57d9d6dc33c.bindTooltip(
+                `<div>
+                     Buenos Aires
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6948cd8f9882deb0921906508a07204d = L.polyline(
+                [[-23.5505, -46.6333], [-22.9068, -43.1729], [-19.9167, -43.9345], [-12.9714, -38.5014], [-15.8267, -47.9218], [-25.4284, -49.2733], [-30.0346, -51.2177], [-3.7172, -38.5433], [-3.119, -60.0217], [-8.0476, -34.877], [40.7128, -74.006], [51.5074, -0.1278], [35.6895, 139.6917], [48.8566, 2.3522], [52.52, 13.405], [55.7558, 37.6173], [39.9042, 116.4074], [-33.8688, 151.2093], [19.4326, -99.1332], [-34.6037, -58.3816]],
+                {"bubblingMouseEvents": true, "color": "#6495ED", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#6495ED", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.0}
+            ).addTo(map_00d0313cd151656d4942ccf0a1ca5250);
+        
+</script>
+</html>
