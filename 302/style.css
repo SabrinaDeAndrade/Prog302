@@ -1,0 +1,104 @@
+
+/* Estilo geral */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+/* Container Principal */
+.container{
+    width: 90%;
+    max-width: 600px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Titulos */
+h1{
+    color: #00bcd4;
+    font-size: 24px;
+}
+
+h2{
+    color: #b0bec5;
+    font-size: 20px;
+}
+
+/* Links */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Lista de Usúarios*/
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+li{
+    background: #00bcd4;
+    color: #121212;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Formuários */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 10px;
+    background: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #e0e0e0;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background: #008c9e;
+}
+
+/* Sombra Input*/
+input:focus{
+    outline: none;
+    border-color: #00bcd4;
+    box-shadow: 0 0 8px rgba(0, 188, 212, 0.5);
+}
+
+input[type="submit"] {
+  background-color: #3fd0e4;; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

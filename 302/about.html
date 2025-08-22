@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>WEB APP</title>
+    <link rel="stylesheet" 
+    href="{{ url_for('static', filename='style.css')}}">
+
+</head>
+<body>
+    <h1>Sobre a Aplicação</h1>
+    <p>Esta é uma aplicação criada com 
+        Flask e implantada com Render </p>
+    <a href="{{ url_for('home') }}">Voltar</a>
+</body>
+</html>
